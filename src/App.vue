@@ -6,10 +6,12 @@
 @font-face {
   font-family: RobotoMono;
   src: url("./assets/Roboto_Mono/static/RobotoMono-Regular.ttf");
+  font-display: swap;
 }
 
 * {
   font-family: "RobotoMono", monospace;
+  color: white;
 }
 
 html,
