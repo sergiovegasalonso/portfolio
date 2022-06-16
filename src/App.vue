@@ -3,10 +3,13 @@
 <template><h1>holaaa</h1></template>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono:wght@100&display=swap");
+@font-face {
+  font-family: RobotoMono;
+  src: url("./assets/Roboto_Mono/static/RobotoMono-Regular.ttf");
+}
 
 * {
-  font-family: "Roboto Mono", monospace;
+  font-family: "RobotoMono", monospace;
 }
 
 html,
