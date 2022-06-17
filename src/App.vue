@@ -1,6 +1,11 @@
 <script setup lang="ts"></script>
 
-<template><h1>holaaa</h1></template>
+<template>
+  <h1>holaaa</h1>
+  <router-link to="/">Go to Home</router-link>
+  <router-link to="/about">Go to About</router-link>
+  <router-view></router-view>
+</template>
 
 <style>
 @font-face {
