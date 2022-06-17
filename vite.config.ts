@@ -9,4 +9,10 @@ export default defineConfig({
       'vue': 'vue/dist/vue.esm-bundler.js',
     },
   },
+  build: {
+    chunkSizeWarningLimit: 500,
+    rollupOptions: {
+      input: ['src/main.ts', 'src/third-party-libs/pixi-js/pixi.min.mjs'],
+    }
+  },
 })
