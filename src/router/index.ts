@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router"
+import { createRouter, createWebHistory, Router, RouteRecordRaw } from "vue-router"
 
 const Home = { template: '<div>Home</div>' }
 const About = { template: '<div>About</div>' }
@@ -8,7 +8,7 @@ const routes: Array<RouteRecordRaw> = [
     { path: '/about', component: About },
 ]
 
-const router = createRouter({
+const router: Router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     routes,
 });
