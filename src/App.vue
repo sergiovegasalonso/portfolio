@@ -18,7 +18,7 @@ import("pixi.js").then((PIXI) => {
 
 <style scoped>
 #app-wrapper {
-    @apply px-16 py-8;
+    @apply px-8 md:px-16 py-8;
 }
 
 #app-wrapper > .page-wrapper {
