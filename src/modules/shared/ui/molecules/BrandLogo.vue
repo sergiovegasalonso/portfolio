@@ -7,7 +7,7 @@
 </template>
 
 <style scoped>
-#brand-logo > span.span-with-gradient {
+#brand-logo span.span-with-gradient {
     display: flex;
     justify-content: center;
     font-weight: bold;
