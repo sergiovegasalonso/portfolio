@@ -1,5 +1,7 @@
 <script setup lang="ts">
-const BrandLogo = () => import("$shared/ui/molecules/BrandLogo.vue");
+import { defineAsyncComponent } from "vue";
+const NavBar = defineAsyncComponent(() => import("$shared/ui/organisms/NavBar.vue"));
+
 import("pixi.js").then((PIXI) => {
     console.log(PIXI);
 });
@@ -7,9 +9,7 @@ import("pixi.js").then((PIXI) => {
 
 <template>
     <div id="app-wrapper">
-        <brand-logo />
-        <router-link to="/">Go to Home</router-link>
-        <router-link to="/about">Go to About</router-link>
+        <nav-bar />
         <div class="page-wrapper">
             <router-view></router-view>
         </div>
