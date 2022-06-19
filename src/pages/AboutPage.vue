@@ -1,3 +1,3 @@
 <template>
-    <sections id="about-page">About page.</sections>
+    <section id="about-page">About page.</section>
 </template>

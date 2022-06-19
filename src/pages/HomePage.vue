@@ -1,3 +1,3 @@
 <template>
-    <sections id="home-page">Home page.</sections>
+    <main id="home-page">Home page.</main>
 </template>

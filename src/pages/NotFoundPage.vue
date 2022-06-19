@@ -1,3 +1,3 @@
 <template>
-    <sections id="not-found-page">404</sections>
+    <section id="not-found-page">404</section>
 </template>
