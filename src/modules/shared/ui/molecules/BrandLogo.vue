@@ -1,7 +1,7 @@
 <template>
     <div id="brand-logo">
         <router-link to="/">
-            <span class="gradient-text break-word span-with-gradient">⚡ Sergio Vegas Alonso</span>
+            <span class="span-with-gradient">⚡ Sergio Vegas Alonso</span>
         </router-link>
     </div>
 </template>
@@ -21,6 +21,21 @@
     -webkit-animation: gradient-shift 15s ease infinite;
     animation: gradient-shift 15s ease infinite;
     -webkit-text-fill-color: transparent;
+}
+
+@-webkit-keyframes gradient-shift {
+    0% {
+        background-position: 58% 50%;
+    }
+    25% {
+        background-position: 100% 0%;
+    }
+    75% {
+        background-position: 10% 50%;
+    }
+    to {
+        background-position: 58% 50%;
+    }
 }
 
 @keyframes gradient-shift {
