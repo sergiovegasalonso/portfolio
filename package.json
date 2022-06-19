@@ -33,5 +33,14 @@
         "vite-plugin-eslint": "^1.6.1",
         "vue-eslint-parser": "^9.0.2",
         "vue-tsc": "^0.34.7"
+    },
+    "gitHooks": {
+      "pre-commit": "lint-staged"
+    },
+    "lint-staged": {
+      "*.{js,jsx,vue,ts,tsx}": [
+        "vue-cli-service lint",
+        "git add"
+      ]
     }
 }
