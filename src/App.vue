@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import("pixi.js").then((PIXI) => {
-    console.log(PIXI)
-})
+    console.log(PIXI);
+});
 </script>
 
 <template>
