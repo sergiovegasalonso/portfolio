@@ -1,13 +1,14 @@
 import { createRouter, createWebHistory, Router, RouteRecordRaw } from "vue-router";
-import HomePage from "../modules/home/1-presentation/pages/HomePage.vue";
-
-const About = { template: "<div>About</div>" };
-const Projects = { template: "<div>Projects</div>" };
+import HomePage from "./pages/HomePage.vue";
+import AboutPage from "./pages/AboutPage.vue";
+import ProjectsPage from "./pages/ProjectsPage.vue";
+import NotFoundPage from "./pages/NotFoundPage.vue";
 
 const routes: Array<RouteRecordRaw> = [
     { path: "/", component: HomePage },
-    { path: "/about", component: About },
-    { path: "/projects", component: Projects },
+    { path: "/about", component: AboutPage },
+    { path: "/projects", component: ProjectsPage },
+    { path: "*", component: NotFoundPage },
 ];
 
 const router: Router = createRouter({
