@@ -1,15 +1,27 @@
 <script setup lang="ts">
+const BrandLogo = () => import("$shared/ui/molecules/BrandLogo.vue");
 import("pixi.js").then((PIXI) => {
     console.log(PIXI);
 });
 </script>
 
 <template>
-    <h1>holaddafsfdsdsfdsfsddfsfsdffdsdsdfssdfsdfddffdddddddddddddddddddddddddsadsdffdsdfssffdsfdsafdfdsaaaaaaaaaaaaaaaafdsdfdssdfsdffdsdfsasfsdafdsfsdaa</h1>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
-    <router-link to="/">Go to Home</router-link>
-    <router-link to="/about">Go to About</router-link>
-    <router-view></router-view>
+    <div id="app-wrapper">
+        <brand-logo />
+        <router-link to="/">Go to Home</router-link>
+        <router-link to="/about">Go to About</router-link>
+        <div class="page-wrapper">
+            <router-view></router-view>
+        </div>
+    </div>
 </template>
 
-<style></style>
+<style scoped>
+#app-wrapper {
+    @apply px-16 py-8;
+}
+
+#app-wrapper > .page-wrapper {
+    @apply pt-8;
+}
+</style>
