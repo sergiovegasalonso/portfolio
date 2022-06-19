@@ -8,27 +8,4 @@
   <router-view></router-view>
 </template>
 
-<style>
-@font-face {
-  font-family: RobotoMono;
-  src: url("./assets/Roboto_Mono/static/RobotoMono-Regular.ttf");
-  font-display: swap;
-}
-
-* {
-  font-family: "RobotoMono", monospace;
-  color: white;
-}
-
-html,
-body {
-  box-sizing: content-box;
-}
-
-body {
-  margin: 0;
-  width: 100%;
-  height: 100vh;
-  background: #333;
-}
-</style>
+<style></style>

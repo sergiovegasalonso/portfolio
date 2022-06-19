@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    @apply font-mono text-white;
+}
+
+html,
+body {
+    @apply box-border;
+}
+
+body {
+    @apply w-full m-0 h-full bg-black;
+}
