@@ -1,4 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import("pixi.js").then((PIXI) => {
+  console.log(PIXI);
+});
+</script>
 
 <template>
   <h1>holaaa</h1>

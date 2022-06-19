@@ -10,9 +10,9 @@ export default defineConfig({
     },
   },
   build: {
-    chunkSizeWarningLimit: 500,
+    chunkSizeWarningLimit: 600,
     rollupOptions: {
-      input: ['index.html', 'src/main.ts', 'src/third-party-libs/pixi-js/pixi.min.mjs'],
+      input: ['index.html', 'src/main.ts'],
     }
   },
 })
