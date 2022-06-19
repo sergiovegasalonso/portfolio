@@ -8,9 +8,9 @@
 
 html,
 body {
-    @apply box-border;
+    @apply w-full h-screen box-border;
 }
 
 body {
-    @apply w-full m-0 h-full bg-black;
+    @apply m-0 bg-black;
 }
