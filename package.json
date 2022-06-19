@@ -13,7 +13,6 @@
     },
     "dependencies": {
         "@types/node": "^18.0.0",
-        "husky": "^8.0.1",
         "pixi.js": "^6.4.2",
         "vue": "^3.2.25",
         "vue-router": "4"
@@ -28,6 +27,7 @@
         "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-prettier": "^4.0.0",
         "eslint-plugin-vue": "^9.1.1",
+        "husky": "^8.0.1",
         "lint-staged": "^13.0.2",
         "postcss": "^8.4.14",
         "prettier": "^2.7.1",
@@ -36,7 +36,6 @@
         "vite": "^2.9.9",
         "vite-plugin-eslint": "^1.6.1",
         "vue-eslint-parser": "^9.0.2",
-        "vue-tsc": "^0.34.7",
-        "husky": "^8.0.0"
+        "vue-tsc": "^0.34.7"
     }
 }
