@@ -1,11 +1,13 @@
 <template>
-    <router-link to="/">
-        <span class="gradient-text break-word span-with-gradient">Sergio Vegas Alonso</span>
-    </router-link>
+    <div id="brand-logo">
+        <router-link to="/">
+            <span class="gradient-text break-word span-with-gradient">⚡ Sergio Vegas Alonso</span>
+        </router-link>
+    </div>
 </template>
 
 <style scoped>
-span.span-with-gradient {
+#brand-logo > span.span-with-gradient {
     display: flex;
     justify-content: center;
     font-weight: bold;
