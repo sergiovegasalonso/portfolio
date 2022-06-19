@@ -25,6 +25,7 @@
         "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-prettier": "^4.0.0",
         "eslint-plugin-vue": "^9.1.1",
+        "husky": "^8.0.1",
         "lint-staged": "^13.0.2",
         "postcss": "^8.4.14",
         "prettier": "^2.7.1",
@@ -34,14 +35,5 @@
         "vite-plugin-eslint": "^1.6.1",
         "vue-eslint-parser": "^9.0.2",
         "vue-tsc": "^0.34.7"
-    },
-    "gitHooks": {
-        "pre-commit": "lint-staged"
-    },
-    "lint-staged": {
-        "*.{js,jsx,vue,ts,tsx}": [
-            "eslint --ext .ts,.vue --ignore-path .gitignore --fix src",
-            "git add"
-        ]
-    }
+    }    
 }
