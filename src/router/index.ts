@@ -1,11 +1,11 @@
-import { createRouter, createWebHistory, Router, RouteRecordRaw } from "vue-router";
+import { createRouter, createWebHistory, Router, RouteRecordRaw } from 'vue-router';
 
-const Home = { template: "<div>Home</div>" };
-const About = { template: "<div>About</div>" };
+const Home = { template: '<div>Home</div>' };
+const About = { template: '<div>About</div>' };
 
 const routes: Array<RouteRecordRaw> = [
-    { path: "/", component: Home },
-    { path: "/about", component: About },
+    { path: '/', component: Home },
+    { path: '/about', component: About },
 ];
 
 const router: Router = createRouter({

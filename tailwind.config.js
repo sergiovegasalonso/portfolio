@@ -2,14 +2,14 @@
 
 // eslint-disable-next-line no-undef
 module.exports = {
-    content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+    content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
     theme: {
         fontFamily: {
-            mono: ["RobotoMono", "monospace"],
+            mono: ['RobotoMono', 'monospace'],
         },
         colors: {
-            black: "#111",
-            white: "#fff",
+            black: '#111',
+            white: '#fff',
         },
         extend: {},
     },
