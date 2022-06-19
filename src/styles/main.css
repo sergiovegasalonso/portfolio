@@ -14,3 +14,7 @@ body {
 body {
     @apply m-0 bg-black;
 }
+
+.style {
+    @apply text-white;
+}
