@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 * {
-  @apply font-mono text-white;
+    @apply font-mono text-white;
 }
 
 html,
 body {
-  @apply w-full h-screen box-border;
+    @apply w-full h-screen box-border;
 }
 
 body {
-  @apply m-0 bg-black;
+    @apply m-0 bg-black;
 }

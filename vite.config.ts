@@ -4,16 +4,16 @@ import eslintPlugin from "vite-plugin-eslint";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(), eslintPlugin()],
-  resolve: {
-    alias: {
-      vue: "vue/dist/vue.esm-bundler.js",
+    plugins: [vue(), eslintPlugin()],
+    resolve: {
+        alias: {
+            vue: "vue/dist/vue.esm-bundler.js",
+        },
     },
-  },
-  build: {
-    chunkSizeWarningLimit: 600,
-    rollupOptions: {
-      input: ["index.html", "src/main.ts"],
+    build: {
+        chunkSizeWarningLimit: 600,
+        rollupOptions: {
+            input: ["index.html", "src/main.ts"],
+        },
     },
-  },
 });
