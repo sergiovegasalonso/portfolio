@@ -7,10 +7,12 @@
         "build": "vue-tsc --noEmit && vite build",
         "preview": "vite preview",
         "lint": "eslint --ext .ts,.vue --ignore-path .gitignore --fix src",
-        "format": "prettier .  --write"
+        "format": "prettier .  --write",
+        "prepare": "husky install"
     },
     "dependencies": {
         "@types/node": "^18.0.0",
+        "husky": "^8.0.1",
         "pixi.js": "^6.4.2",
         "vue": "^3.2.25",
         "vue-router": "4"
@@ -33,9 +35,10 @@
         "vite": "^2.9.9",
         "vite-plugin-eslint": "^1.6.1",
         "vue-eslint-parser": "^9.0.2",
-        "vue-tsc": "^0.34.7"
+        "vue-tsc": "^0.34.7",
+        "husky": "^8.0.0"
     },
     "gitHooks": {
-      "pre-commit": "lint-staged"
+        "pre-commit": "lint-staged"
     }
 }
