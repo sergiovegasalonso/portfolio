@@ -12,6 +12,7 @@ module.exports = {
             current: "currentColor",
             black: "#222222",
             white: "#ffffff",
+            yellow: "#ffe580",
         },
         extend: {},
     },

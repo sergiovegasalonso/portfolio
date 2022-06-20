@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 * {
-    @apply font-mono text-white;
+    @apply box-border font-mono text-white;
 }
 
 html,
 body {
-    @apply w-full h-screen box-border;
+    @apply w-full h-screen;
 }
 
 body {
