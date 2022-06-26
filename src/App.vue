@@ -1,10 +1,6 @@
 <script setup lang="ts">
 import { defineAsyncComponent } from "vue";
 const NavBar = defineAsyncComponent(() => import("$shared/ui/organisms/NavBar.vue"));
-
-import("pixi.js").then((PIXI) => {
-    console.log(PIXI);
-});
 </script>
 
 <template>
