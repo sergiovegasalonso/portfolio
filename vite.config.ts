@@ -14,7 +14,7 @@ export default defineConfig({
         },
     },
     build: {
-        chunkSizeWarningLimit: 600,
+        chunkSizeWarningLimit: 400,
         rollupOptions: {
             input: ["index.html", "src/main.ts"],
         },
