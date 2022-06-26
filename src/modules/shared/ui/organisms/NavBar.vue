@@ -19,7 +19,7 @@ const BrandLogo = defineAsyncComponent(() => import("$shared/ui/molecules/BrandL
 }
 
 #header nav {
-    @apply flex justify-evenly mt-8 md:mt-0;
+    @apply flex justify-evenly;
 }
 
 #header nav > a {
