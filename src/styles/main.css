@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --first-color: #ffe580;
+    --second-color: #ff7571;
+    --third-color: #ff7270;
+    --fourth-color: #ea5dad;
+    --fifth-color: #c2a0fd;
+    --sixth-color: #9867f0;
+    --seventh-color: #3bf0e4;
+    --eighth-color: #33ce43;
+}
+
 * {
     @apply box-border font-mono text-white;
 }
