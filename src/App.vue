@@ -16,7 +16,7 @@ const PseudoFooter = defineAsyncComponent(() => import("$shared/ui/organisms/Pse
 
 <style scoped>
 #app-wrapper {
-    @apply flex flex-col h-screen px-4 md:px-16 py-8;
+    @apply fixed inset-0 flex flex-col px-4 md:px-16 py-8;
 }
 
 #app-wrapper > .page-wrapper {
