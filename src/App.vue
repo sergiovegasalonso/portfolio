@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { defineAsyncComponent } from "vue";
 const NavBar = defineAsyncComponent(() => import("$shared/ui/organisms/NavBar.vue"));
-const PseudoFooter = defineAsyncComponent(() => import("$shared/ui/organisms/PseudoFooter.vue"));
 </script>
 
 <template>
@@ -10,7 +9,6 @@ const PseudoFooter = defineAsyncComponent(() => import("$shared/ui/organisms/Pse
         <div class="page-wrapper">
             <router-view></router-view>
         </div>
-        <pseudo-footer />
     </div>
 </template>
 
