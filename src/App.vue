@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { defineAsyncComponent } from "vue";
 const NavBar = defineAsyncComponent(() => import("$shared/ui/organisms/NavBar.vue"));
+const FooterBar = defineAsyncComponent(() => import("$shared/ui/organisms/FooterBar.vue"));
 </script>
 
 <template>
@@ -9,6 +10,7 @@ const NavBar = defineAsyncComponent(() => import("$shared/ui/organisms/NavBar.vu
         <div class="page-wrapper">
             <router-view></router-view>
         </div>
+        <footer-bar />
     </div>
 </template>
 
@@ -18,6 +20,6 @@ const NavBar = defineAsyncComponent(() => import("$shared/ui/organisms/NavBar.vu
 }
 
 #app-wrapper > .page-wrapper {
-    @apply flex-1 pt-8;
+    @apply flex-1 py-14;
 }
 </style>
