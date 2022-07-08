@@ -1,7 +1,7 @@
 <template>
     <div id="brand-logo">
         <router-link to="/">
-            <span class="span-with-gradient">⚡ Sergio Vegas Alonso</span>
+            <span class="span-with-gradient">⚡ Sergio Vegas Alonso ⚡</span>
         </router-link>
     </div>
 </template>
